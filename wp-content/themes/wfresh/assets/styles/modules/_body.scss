@@ -1,0 +1,490 @@
+.page-id-34 .page-content {
+    margin-bottom: 100px;
+}
+
+.parent-pageid-4 {
+    .ui-dialog {
+        @include border-radius(0px);
+        .ui-dialog-titlebar {
+            @include border-radius(0px);
+        }
+        .ui-dialog-content {
+            padding: 0px;
+            #termsBox {
+                border: medium none !important;
+                height: 100% !important;
+                overflow-x: inherit !important;
+                overflow-y: scroll !important;
+                h3,
+                h2,
+                p {
+                    margin: 0px;
+                }
+                ul {
+                    margin-bottom: 0px;
+                    li {
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .page-content {
+        .wpam_form_errors {
+            padding: 20px;
+            margin-bottom: 40px;
+            ul {
+                margin: 0px;
+                li {
+                    list-style: none;
+                    margin-bottom: 10px;
+                    &:last-child {
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+        p,
+        ul {
+            font-family: Questrial;
+            letter-spacing: 1px;
+        }
+    }
+    .pure-table {
+        border: none;
+        tr {
+            font-family: Questrial;
+            letter-spacing: 1px;
+            td,
+            th {
+                border: none;
+            }
+            th {
+                padding-right: 40px;
+                text-align: left;
+            }
+            td {
+                input[type="text"],
+                select {
+                    @include border-radius(0px);
+                    box-shadow: none;
+                    width: 300px;
+                    height: 35px;
+                }
+                input[type="checkbox"] {
+                    margin-right: 10px;
+                }
+            }
+            &:last-child {
+                td,
+                th {
+                    padding: 50px 0;
+                }
+            }
+        }
+    }
+    .wpam-registration-form {
+        text-align: left;
+        input {
+            background: #000;
+            border: 1px solid #000;
+            @include border-radius(0);
+            color: #fff;
+            @include font-size(14px);
+            font-weight: 400;
+            padding: 10px 30px;
+        }
+    }
+}
+
+.page-id-54,
+.page-id-34,
+.page-id-37,
+.page-id-31,
+.page-id-29 {
+    .page-content {
+        h2 {
+            margin-top: 80px;
+            &:first-child {
+                margin-top: 0px;
+            }
+            + h3 {
+                margin-top: 0px;
+            }
+        }
+        h3 {
+            margin-top: 40px;
+            + h4 {
+                margin-top: 0px;
+            }
+        }
+        h4 {
+            margin-top: 20px;
+        }
+        p {
+            margin-bottom: 10px;
+            letter-spacing: 0.05em;
+        }
+        ol,
+        ul,
+        p {
+            font-family: Questrial;
+        }
+        ul,
+        ol {
+            @include font-size(16px);
+            margin: 20px 40px;
+            line-height: 1.3em;
+            li {
+                margin-bottom: 10px;
+                padding-left: 10px;
+            }
+        }
+        ul {
+            list-style-type: none;
+            > li {
+                text-indent: -35px;
+                &:before {
+                    margin-right: 30px;
+                    content: "-";
+                }
+            }
+        }
+        .privacy,
+        .returns,
+        .terms,
+        .faq,
+        .track-order {
+            display: inline-block;
+            margin-right: 20%;
+            max-width: 1200px;
+        }
+        .faq {
+            ul.questions {
+                margin: 0 0 90px 25px;
+            }
+        }
+        .sidebar {
+            float: left;
+            a {
+                color: #aaa;
+                display: block;
+                margin: 0 0 20px 0;
+                &.active,
+                &:hover {
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
+.page-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1720px;
+    padding: 50px 50px 0 50px;
+    h1 {
+        font-weight: 700;
+        @include font-size(50px);
+        border-bottom: 3px solid #000;
+        display: inline-block;
+        margin: 0;
+        padding-bottom: 1em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.page-content {
+    border-top: 1px solid #ddd;
+    .affiliate-program {
+        p,
+        center {
+            letter-spacing: 1px;
+            font-family: Questrial;
+        }
+        ul.list {
+            list-style: none;
+            margin-left: 0px;
+        }
+    }
+}
+
+.no-title {
+    .grey-bg {
+        height: 350px;
+        background-color: #f9f9f9;
+        background-image: linear-gradient(#fff, #f9f9f9);
+        border-bottom: 1px solid #eee;
+        .info {
+            h2 {
+                @include font-size(30px);
+                font-style: normal;
+                font-weight: normal;
+                line-height: 32px;
+            }
+            p {
+                font-family: "Questrial";
+                @include font-size(17px);
+                font-style: normal;
+                font-weight: normal;
+                line-height: 26px;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 400px;
+                letter-spacing: 1px;
+            }
+        }
+        .boxes-support {
+            width: 850px;
+            margin: 0px auto;
+            .box-inner {
+                background-color: #7DBA57;
+                text-align: left;
+                h2 {
+                    color: #d9cbe6;
+                }
+                p {
+                    font-family: "Questrial";
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 23px;
+                    padding: 0 20px;
+                    color: #333;
+                }
+                h4 {
+                    background-color: #6FA242;
+                    @include font-size(14px);
+                    font-style: normal;
+                    font-weight: normal;
+                    letter-spacing: 1px;
+                    line-height: 19px;
+                    padding: 17px 20px 15px;
+                    text-rendering: optimizelegibility;
+                    text-transform: uppercase;
+                    a {
+                        color: #fff;
+                        i {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content-support {
+        padding-top: 20px;
+        h2 {
+            color: #7DBA57;
+            @include font-size(34px);
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: -1px;
+            line-height: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: none;
+        }
+        p {
+            font-family: "Questrial";
+            @include font-size(14px);
+            font-style: normal;
+            font-weight: normal;
+            line-height: 23px;
+            margin: 0 auto 40px;
+            max-width: 550px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .wpcf7-form {
+            label {
+                display: block;
+                font-family: "Questrial";
+                @include font-size(14px);
+                font-style: normal;
+                font-weight: normal;
+                line-height: 21px;
+                margin-bottom: 10px;
+                i {
+                    color: red;
+                }
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"],
+            select,
+            textarea {
+                box-shadow: none;
+                font-family: "Questrial";
+                @include font-size(14px);
+                line-height: 18px;
+                margin-bottom: 15px;
+                padding: 8px 10px;
+                @include border-radius(4px);
+                border: 1px solid #ddd;
+                width: 100%;
+            }
+            textarea {
+                height: 201px;
+            }
+            input[type="submit"] {
+                background: #000;
+                border: 1px solid #000;
+                color: #fff;
+                @include font-size(12px);
+                height: auto;
+                left: auto;
+                letter-spacing: 1px;
+                margin-top: 20px;
+                padding: 10px 40px;
+                text-transform: uppercase;
+            }
+        }
+        .col_10 {
+            float: none;
+            margin: 0px auto !important;
+        }
+    }
+}
+
+.hp-section {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    text-align: center;
+    > .inner {
+        text-align: left;
+        max-width: 470px;
+        z-index: 1;
+        h1 {
+            color: #4a4a4a;
+            padding-bottom: 10px;
+            text-transform: capitalize;
+            margin-bottom: 0px;
+            letter-spacing: -0.045em;
+            @include font-size(60px);
+            line-height: 1.05;
+            &:after {
+                content: "—";
+                display: block;
+            }
+        }
+    }
+    p {
+        color: #4a4a4a;
+        @include font-size(18px);
+        line-height: 28px;
+        padding: 0 20px 20px;
+        margin: 0px;
+        letter-spacing: 1px;
+    }
+    .button {
+        @include border-radius(2px);
+        @include button(#333);
+        padding: 10px 25px;
+        vertical-align: middle;
+        position: relative;
+        top: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        @include font-size(12px);
+        @include transition(all 0.2s ease-in-out 0s);
+    }
+    &.section-1 {
+        position: relative;
+        padding-top: 200px;
+        padding-bottom: 50px;
+        p {
+            &:first-of-type {
+                font-family: Questrial;
+                padding: 0 0 75px 0;
+                margin: 0 0 0 20px;
+                width: 250px;
+            }
+        }
+        &:after {
+            background: #FDFDFD url('http://weedfreshener.com/wp-content/uploads/2017/04/hp-bg-plant.jpg') right -390px no-repeat;
+            content: "";
+            height: 100%;
+            left: -100%;
+            position: absolute;
+            right: -55%;
+            top: 0;
+            border-bottom: 1px solid #eee;
+            opacity: .8;
+        }
+    }
+    &.section-2 {
+        margin-top: 60px;
+        > div {
+            text-align: left;
+            position: relative;
+            margin: 0 60px;
+            padding: 30px;
+            h4,
+            p {
+                padding: 0px;
+                margin: 0px;
+                font-family:Questrial;
+                letter-spacing:1px;
+            }
+            h6 {
+                @include font-size(20px);
+                letter-spacing: -0.5px;
+                margin: 0 0 0.67em;
+            }
+            &.sec {
+                margin: 0px;
+                background-image: url('http://weedfreshener.com/wp-content/uploads/2017/04/hp-arrivals.jpg');
+                background-size: 100%;
+            }
+            &.fir {
+                background-image: url('http://weedfreshener.com/wp-content/uploads/2017/04/hp-accessories.jpg');
+                background-size: 100%;
+                background-position: bottom;
+            }
+            &.thi {
+                background-image: url('http://weedfreshener.com/wp-content/uploads/2017/04/hp-bsellers.jpg');
+                background-size: 100%;
+                background-position: bottom;
+            }
+            article {
+                z-index: 1;
+            }
+        }
+    }
+    &.section-3 {
+        display: block;
+        h3 {
+            color: #4a4a4a;
+            letter-spacing: 0px;
+        }
+        p {
+            font-family: Questrial;
+            @include font-size(16px);
+            width: 350px;
+            margin: 0px auto;
+            line-height: 23px;
+        }
+    }
+    &.instagram {
+        position: relative;
+        > span {
+            font-family:'Questrial';
+            text-transform: uppercase;
+            padding: 5px 20px;
+            @include font-size(12px);
+            @include opacity(.5);
+            background: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            letter-spacing: 1px;
+            z-index: 999;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+body:not(.home):not(.woocommerce-account) {
+    footer {
+        margin-top: 80px;
+    }
+}
+
+body.woocommerce-account {
+    footer {
+        margin-top:0px !important;
+        border-top: none;
+    }
+}
+
+footer {
+    padding: 4em 0;
+    border-top: 1px solid #e9e9e9;
+    color: rgba(0, 0, 0, 0.4);
+    .widget_nav_menu {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding-right: 8em;
+        vertical-align: top;
+        letter-spacing: 1px;
+        line-height: 1.6em;
+        &:last-of-type {
+            padding-right: 0px;
+            float: right;
+        }
+        h5 {
+            @include opacity(.5);
+            margin-top: 0;
+            text-transform: uppercase;
+            @include font-size(10px);
+            color: #000;
+        }
+        ul {
+            margin: 0px;
+            li {
+                list-style: none;
+                @include font-size(10px);
+                a {
+                    font-family:"Questrial";
+                    color: #000;
+                    opacity: 0.4;
+                    text-transform: uppercase;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                &.current-menu-item {
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        p {
+            font-family:'Questrial';
+            line-height: 2em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            @include font-size(10px);
+        }
+        label {
+            margin: 0px;
+        }
+        input[type="email"] {
+            font-family:'Questrial';
+            background: #fff;
+            border: 1px solid #ebebeb;
+            @include border-radius(0);
+            color: #666;
+            @include font-size(10px);
+            height: 40px;
+            margin: 0;
+            padding-left: 16px;
+            padding-right: 16px;
+            text-transform: uppercase;
+            width: 350px;
+        }
+        button {
+            font-family:"Questrial";
+            background: #000;
+            border: 1px solid #000;
+            @include border-radius(0);
+            box-shadow: none;
+            color: #fff;
+            font-weight: 600;
+            @include font-size(10px);
+            line-height: initial;
+            padding-left: 2.6em;
+            padding-right: 2.6em;
+            text-shadow: none;
+            text-transform: uppercase;
+            @include transition(background 0.3s ease 0s, color 0.3s ease 0s);
+            &:hover {
+                background: #111;
+                color: #fff;
+            }
+        }
+    }
+}
